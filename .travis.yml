@@ -24,3 +24,4 @@ addons:
     notification_email: zhuceyonghu_2013@163.com
     build_command:   "ant"
     branch_pattern: master
+    build_script_url: "https://github.com/wudigithub1/client/blob/master/scan_script.sh"
