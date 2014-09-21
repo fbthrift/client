@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="E:/java/张会会1008/测试结果/工程样本/Java/client-0.6.3m1/lib/fest-assert-1.0a1.jar"/>
+	<classpathentry kind="lib" path="E:/java/张会会1008/测试结果/工程样本/Java/client-0.6.3m1/lib/fest-reflect-0.4.jar"/>
+	<classpathentry kind="lib" path="E:/java/张会会1008/测试结果/工程样本/Java/client-0.6.3m1/lib/fest-swing-1.0b1.jar"/>
+	<classpathentry kind="lib" path="E:/java/张会会1008/测试结果/工程样本/Java/client-0.6.3m1/lib/fest-swing-junit-1.0b1.jar"/>
+	<classpathentry kind="lib" path="E:/java/张会会1008/测试结果/工程样本/Java/client-0.6.3m1/lib/fest-util-0.4.jar"/>
+	<classpathentry kind="lib" path="E:/java/张会会1008/测试结果/工程样本/Java/client-0.6.3m1/lib/junit-4.1.jar"/>
+	<classpathentry kind="lib" path="E:/java/张会会1008/测试结果/工程样本/Java/client-0.6.3m1/lib/miglayout-3.7-swing.jar"/>
+	<classpathentry kind="lib" path="E:/java/张会会1008/测试结果/工程样本/Java/client-0.6.3m1/lib/mockito-all-1.6.jar"/>
+	<classpathentry kind="lib" path="E:/java/张会会1008/测试结果/工程样本/Java/client-0.6.3m1/lib/MRJToolkitStubs-1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

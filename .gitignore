@@ -1,0 +1,21 @@
+# DMDirc .gitignore file
+
+/build
+/dist
+/nbproject/private
+/plugins
+/junitreports
+/junit*.properties
+/installer/output/*
+/installer/osx/compress-dmg
+/installer/windows/*.rc
+/installer/windows/*.inc
+/installer/windows/*.ico
+/installer/windows/DMDirc.jar
+.svn
+*.class
+*.exe
+__history
+*.bdsproj
+*.bdsproj.local
+*.identcache

@@ -1,0 +1,23 @@
+# Default mode settings for ircu
+# CHANMODES=b,k,l,imnpstrDd
+
+keysections:
+  identity
+  server
+
+identity:
+  name=IRCu mode aliases
+  ircd=ircu
+
+server:
+  modeC=No channel CTCPs
+  enablemodeC=true
+  modeD=Auditorium mode
+  moded=Auditorium mode
+  modeS=Strip all colours
+  modeT=No multi-target messages
+  modeA=Admin pass
+  modeU=User pass
+
+  umodeg=Receive debug information
+  umodek=Services operator
