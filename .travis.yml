@@ -1,18 +1,25 @@
-#  Licensed to the Apache Software Foundation (ASF) under one or more
-#  contributor license agreements.  See the NOTICE file distributed with
-#  this work for additional information regarding copyright ownership.
-#  The ASF licenses this file to You under the Apache License, Version 2.0
-#  (the "License"); you may not use this file except in compliance with
-#  the License.  You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-#  Unless required by applicable law or agreed to in writing, software
-#  distributed under the License is distributed on an "AS IS" BASIS,
-#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#  See the License for the specific language governing permissions and
-#  limitations under the License.
+env:
+  global:
+   # The next declaration is the encrypted COVERITY_SCAN_TOKEN, created
+   #   via the "travis encrypt" command using the project repo's public key
+   - secure: "Z2ojEkRBC3mmNraadphidPjEabJpGQixlSnn+AoIzCy6nnSX8pJ6EALabKwiys7URWgFQ0C6JfdmW63GEeEoKQ8q61k0yLkmz2B7pKItOSsJjQFU8d81jpBWo2w9JCCJWKr58JExVnsiZt8Mz2Z6hVIolV1PV0SnbAu6yaDL92Q="
+
 language: java
 jdk:
-  - oraclejdk7
-script: ant
+  - openjdk7
+branches:
+  only:
+    - master
+    
+
+script: "ant"
+
+
+addons:
+  coverity_scan:
+    project:
+      name: "wudigithub1/client"
+      description: "client"
+    
+    build_command:   "ant"
+    branch_pattern: coverity_scan
