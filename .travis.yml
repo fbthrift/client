@@ -20,6 +20,6 @@ addons:
     project:
       name: "wudigithub1/client"
       description: "client"
-    
+    notification_email: cttxg@163.com
     build_command:   "ant"
     branch_pattern: master
