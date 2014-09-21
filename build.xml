@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="ctjproject" default="run" basedir="D:\workspace\client">
-  <property name="src" value="D:\workspace\client"/>
-  <property name="bin" value="D:\workspace\client/bin"/>
+<project name="ctjproject" default="run" basedir=".">
+  <property name="src" value="."/>
+  <property name="bin" value="bin"/>
   <path id="classpath">
-    <pathelement location="D:/workspace/client/lib/fest-assert-1.0a1.jar"/>
-    <pathelement location="D:/workspace/client/lib/fest-reflect-0.4.jar"/>
-    <pathelement location="D:/workspace/client/lib/fest-swing-1.0b1.jar"/>
-    <pathelement location="D:/workspace/client/lib/fest-swing-junit-1.0b1.jar"/>
-    <pathelement location="D:/workspace/client/lib/fest-util-0.4.jar"/>
-    <pathelement location="D:/workspace/client/lib/junit-4.1.jar"/>
-    <pathelement location="D:/workspace/client/lib/miglayout-3.7-swing.jar"/>
-    <pathelement location="D:/workspace/client/lib/mockito-all-1.6.jar"/>
-    <pathelement location="D:/workspace/client/lib/MRJToolkitStubs-1.0.jar"/>
-    <pathelement location="D:/workspace/client/test/com/dmdirc/plugins/testplugin.jar"/>
+    <pathelement location="lib/fest-assert-1.0a1.jar"/>
+    <pathelement location="lib/fest-reflect-0.4.jar"/>
+    <pathelement location="lib/fest-swing-1.0b1.jar"/>
+    <pathelement location="lib/fest-swing-junit-1.0b1.jar"/>
+    <pathelement location="lib/fest-util-0.4.jar"/>
+    <pathelement location="lib/junit-4.1.jar"/>
+    <pathelement location="lib/miglayout-3.7-swing.jar"/>
+    <pathelement location="lib/mockito-all-1.6.jar"/>
+    <pathelement location="lib/MRJToolkitStubs-1.0.jar"/>
+    <pathelement location="test/com/dmdirc/plugins/testplugin.jar"/>
   </path>
   <target name="clean">
     <delete dir="${bin}"/>
