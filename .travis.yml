@@ -2,7 +2,7 @@ env:
   global:
    # The next declaration is the encrypted COVERITY_SCAN_TOKEN, created
    #   via the "travis encrypt" command using the project repo's public key
-   - secure: "IIehc7eUEV/qi35Dy3YJPAH7i1Zdt70WlC6Kwiqr474dnBdTZxTx/xrpW0mtAHnShGGL7NvmIGQ0NNGKw3/gwcyyU7Lkdlc/EdjeaASsYQBR3TGX9aenTtYXjephk7+Wxdi5lNw7sXbj8xlxjs4FZ3vN3MgpkulKEP0zf6XJxEE="
+   - secure: "E3z66kkVFh9UrewKLfbsDKo34tQDbHk08rTny7EUhddK8a9Yer/c9SOzlBUBflzGa1gHrv/dXJA0gsRZGQCA4ulgAe/lVo98OgQGaxLjSoHbAzC13r+Xn2i7NdhkSn90LszCXPdPYwBGu9eoXsW79SVWcPgEMEg9DCeKFMcvQz0="
 
 language: java
 jdk:
@@ -23,6 +23,6 @@ addons:
       description: "client"
     notification_email: zhuceyonghu_2013@163.com
     
-    build_command:   "sant"
+    build_command:   "ant"
     branch_pattern: master
     
